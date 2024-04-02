@@ -1,0 +1,23 @@
+{
+  "name": "easyhooks",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "tsc"
+  },
+  "keywords": [
+    "hooks",
+    "easyhooks"
+  ],
+  "author": "TalesXiaoxin",
+  "license": "Apache-2.0",
+  "devDependencies": {
+    "@types/react": "^18.2.73",
+    "typescript": "^5.4.3"
+  },
+  "dependencies": {
+    "react": "^18.2.0"
+  }
+}
