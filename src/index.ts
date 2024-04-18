@@ -1,15 +1,14 @@
 import useGetNowState from "./hooks/useGetNowState";
 import usePageVisibility from "./hooks/usePageVisibility";
+import useMount from "./hooks/useMount";
+import useUnmount from "./hooks/useUnmount";
 
 
-
-
-
-export default {
+export {
     useGetNowState,
-    usePageVisibility
+    usePageVisibility,
+    useMount,
+    useUnmount
 }
-
-
 
 
