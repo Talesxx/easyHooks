@@ -6,7 +6,7 @@ sidebar_label: useUnmount
 useUnmount 组件即将卸载前钩子
 
 ```jsx preview
-import { useUnmount } from 'easy-hooks';
+import { useUnmount } from 'tales-easy-hooks';
 import { useState } from "react";
 import styles from './index.module.less';
 

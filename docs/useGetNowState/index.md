@@ -8,7 +8,7 @@ useGetNowState 在 导出的 getState()始终是获取到state最新设置的状
 定时器设置state每秒增加1;
 
 ```jsx preview
-import { useGetNowState,useMount } from 'easy-hooks';
+import { useGetNowState,useMount } from 'tales-easy-hooks';
 import { useState } from "react";
 import styles from './index.module.less';
 
