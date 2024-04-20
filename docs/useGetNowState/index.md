@@ -37,7 +37,7 @@ export default function App () {
 通过两次延时的方式修改state
 
 ```jsx preview
-import { useGetNowState,useMount } from 'easy-hooks';
+import { useGetNowState,useMount } from 'tales-easy-hooks';
 import { useState } from "react";
 import styles from './index.module.less';
 
@@ -79,7 +79,7 @@ export default function App () {
 useGetNowState导出的 setState依旧支持接受函数的方式修改State
 定时器设置state每秒增加1;
 ```jsx preview
-import { useGetNowState,useMount } from 'easy-hooks';
+import { useGetNowState,useMount } from 'tales-easy-hooks';
 import { useState } from "react";
 import styles from './index.module.less';
 

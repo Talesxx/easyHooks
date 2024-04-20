@@ -9,4 +9,4 @@ $ npm i tales-easy-hooks --save
 ```
 
 
-### 请查看文档 [TalesEasyHooks](talesxx.github.io/easyHooks/) 
+### 请查看文档 [TalesEasyHooks](https://talesxx.github.io/easyHooks/) 
