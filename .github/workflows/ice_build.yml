@@ -12,7 +12,7 @@ jobs:
 
     strategy:
       matrix:
-        node-version: [14.x, 16.x, 18.x]
+        node-version: [ 18.x]
 
     steps:
     - uses: actions/checkout@v3
@@ -27,3 +27,11 @@ jobs:
   
     - name: Build project  
       run: npm run build  
+    - name: Deploy to GitHub Pages  
+      if: success() # 只有当前面的步骤都成功时才执行部署  
+      uses: JamesIves/github-pages-deploy-action@v4.2.5  
+      with:  
+        branch: gh-pages # 部署到的分支，通常是 gh-pages  
+        folder: build # 要部署的文件夹，即构建输出的文件夹  
+        clean: true # 在部署前清空 gh-pages 分支的内容  
+        token: ${{ secrets.GITHUB_TOKEN }} # 使用 GitHub 提供的 token
