@@ -6,7 +6,7 @@ sidebar_label: usePageVisibility
 usePageVisibility 页面可见性的钩子
 
 ```jsx preview
-import { usePageVisibility } from 'easy-hooks';
+import { usePageVisibility } from 'tales-easy-hooks';
 import { useState,useEffect } from "react";
 import styles from './index.module.less';
 // import noop from './usage.js';

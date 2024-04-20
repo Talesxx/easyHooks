@@ -7,8 +7,8 @@ export default defineConfig({
       '@ice/pkg-plugin-docusaurus',
       {
         baseUrl: "/easyHooks",
-        title: "easy-hooks",
-        navBarTitle: "easy-hooks"
+        title: "tales-easy-hooks",
+        navBarTitle: "tales-easy-hooks"
       },
     ],
   ],

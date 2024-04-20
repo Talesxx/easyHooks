@@ -1,15 +1,12 @@
-# easy-hooks
+# tales-easy-hooks
 
 组件功能描述
 
 ## Install
 
 ```bash
-$ npm i easy-hooks --save
+$ npm i tales-easy-hooks --save
 ```
 
-## Usage
 
-```jsx
-
-```
+### 请查看文档 [TalesEasyHooks](https://talesxx.github.io/easyHooks/) 

@@ -6,7 +6,7 @@ sidebar_label: useMount
 useMount组件挂在时的钩子
 
 ```jsx preview
-import { useMount } from 'easy-hooks';
+import { useMount } from 'tales-easy-hooks';
 import { useState } from "react";
 import styles from './index.module.less';
 // import noop from './usage.js';
