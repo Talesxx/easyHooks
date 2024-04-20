@@ -1,6 +1,6 @@
 {
   "name": "tales-easy-hooks",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "组件功能描述",
   "files": [
     "esm",
@@ -11,6 +11,11 @@
   "main": "esm/index.js",
   "module": "esm/index.js",
   "types": "esm/index.d.ts",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Talesxx/easyHooks",
+    "homepage": "https://talesxx.github.io/easyHooks/"
+  },
   "exports": {
     ".": {
       "es2017": {

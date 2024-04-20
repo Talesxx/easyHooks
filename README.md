@@ -9,4 +9,10 @@ $ npm i tales-easy-hooks --save
 ```
 
 
+## 🔨 Usage
+
+```ts
+import { useGetNowState } from 'tales-easy-hooks';
+```
+
 ### 请查看文档 [TalesEasyHooks](https://talesxx.github.io/easyHooks/) 
