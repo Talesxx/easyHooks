@@ -1,5 +1,6 @@
 name: NodeJS with Webpack
-
+permissions:
+  contents: write
 on:
   push:
     branches: [ "test_yml" ]
@@ -34,4 +35,4 @@ jobs:
         branch: gh-pages # 部署到的分支，通常是 gh-pages  
         folder: build # 要部署的文件夹，即构建输出的文件夹  
         clean: true # 在部署前清空 gh-pages 分支的内容  
-        # token: ${{ secrets.GITHUB_TOKEN }} # 使用 GitHub 提供的 token
+        token: ${{ secrets.GITHUB_TOKEN }} # 使用 GitHub 提供的 token
