@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunktales_easy_hooks=self.webpackChunktales_easy_hooks||[]).push([[557],{1966:s=>{s.exports=JSON.parse('{"name":"docusaurus-plugin-content-docs","id":"default"}')}}]);
