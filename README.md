@@ -1,6 +1,6 @@
 # tales-easy-hooks
 
-组件功能描述
+这是一个react Hooks仓库 具体api 请查看文档
 
 ## Install
 
